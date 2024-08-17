@@ -8,4 +8,6 @@ print("Title: ", yt.title)
 print("Views: ", yt.views)
 
 yd = yt.streams.get_highest_resolution()
-yd.download(r"C:\Users\pik3l\OneDrive\Desktop\test")
+
+#place file path to download file to in blank
+yd.download(r"___")
