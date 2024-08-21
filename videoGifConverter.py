@@ -1,4 +1,7 @@
 from moviepy.editor import VideoFileClip
 
-clip = VideoFileClip("video.mp4")
-clip.write_gif("newgif.gif", fps = 10)
+#enter file name of video in quotation marks
+clip = VideoFileClip("example.mp4")
+
+#enter name for produced gif and fps
+clip.write_gif("example.gif", fps = 10)
